@@ -21,7 +21,8 @@ class MyApp extends StatelessWidget {
         flexibleSpace: Container(
           decoration: const BoxDecoration(
               image: DecorationImage(
-                  image: AssetImage('images/fondo.png'), fit: BoxFit.fill)),
+                  image: AssetImage('assets/images/fondo.png'),
+                  fit: BoxFit.fill)),
           width: 200,
         ),
       ),
